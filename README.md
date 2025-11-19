@@ -44,19 +44,19 @@ Secure and fast image handling using the **Google GenAI SDK** — no server requ
 
 ---
 
-# 🚀 Run and Deploy Your AI Studio App
+# Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
 
-**View app in AI Studio:**  
-https://ai.studio/apps/drive/17rkawBNpTJNL_-f_YoOR-ESHFgr8qRQq
+View app in AI Studio: https://ai.studio/apps/drive/17rkawBNpTJNL_-f_YoOR-ESHFgr8qRQq
 
----
+## Run Locally
 
-## 🖥️ Run Locally
+**Prerequisites:**  Node.js
 
-**Prerequisites:** Node.js
 
-1. Install dependencies  
-   ```sh
-   npm install
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
